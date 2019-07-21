@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlertViewCustom" customModule="BeMySight" customModuleProvider="target">
+            <connections>
+                <outlet property="alertDescriptionLabel" destination="fdw-K3-VIY" id="0jd-Pf-BXj"/>
+                <outlet property="alertHeaderLabel" destination="8n0-2x-jAh" id="xN0-LB-Z2u"/>
+                <outlet property="alertImageView" destination="SD2-7A-vwQ" id="2v9-7X-ioo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <visualEffectView opaque="NO" contentMode="scaleToFill" id="PMt-7S-ojl">
+            <rect key="frame" x="0.0" y="0.0" width="246" height="276"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="v6y-Ij-Trj">
+                <rect key="frame" x="0.0" y="0.0" width="246" height="276"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="SD2-7A-vwQ">
+                        <rect key="frame" x="27.5" y="0.0" width="191" height="129.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Header" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8n0-2x-jAh">
+                        <rect key="frame" x="91.5" y="137.5" width="63.5" height="22.5"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
+                        <color key="textColor" red="0.44072955850000001" green="0.70057362320000005" blue="0.91767698529999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descriptions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdw-K3-VIY">
+                        <rect key="frame" x="8" y="168" width="230" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="brR-1u-unO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.44072955850000001" green="0.70057362320000005" blue="0.91767698529999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="fdw-K3-VIY" secondAttribute="trailing" constant="8" id="46Q-44-d3D"/>
+                    <constraint firstItem="SD2-7A-vwQ" firstAttribute="top" secondItem="v6y-Ij-Trj" secondAttribute="top" id="8Bu-d4-AIU"/>
+                    <constraint firstItem="8n0-2x-jAh" firstAttribute="top" secondItem="SD2-7A-vwQ" secondAttribute="bottom" constant="8" id="B42-8S-KBA"/>
+                    <constraint firstItem="fdw-K3-VIY" firstAttribute="leading" secondItem="v6y-Ij-Trj" secondAttribute="leading" constant="8" id="D3M-9D-KFv"/>
+                    <constraint firstItem="fdw-K3-VIY" firstAttribute="top" secondItem="8n0-2x-jAh" secondAttribute="bottom" constant="8" id="Osc-mV-QGI"/>
+                    <constraint firstItem="8n0-2x-jAh" firstAttribute="centerX" secondItem="v6y-Ij-Trj" secondAttribute="centerX" id="Qhi-Ae-j99"/>
+                    <constraint firstItem="SD2-7A-vwQ" firstAttribute="centerX" secondItem="v6y-Ij-Trj" secondAttribute="centerX" id="Ts9-k1-Vz1"/>
+                    <constraint firstAttribute="bottom" secondItem="fdw-K3-VIY" secondAttribute="bottom" constant="8" id="UN4-uc-zUo"/>
+                    <constraint firstAttribute="trailing" secondItem="SD2-7A-vwQ" secondAttribute="trailing" constant="27.5" id="kYt-LI-FAr"/>
+                    <constraint firstItem="SD2-7A-vwQ" firstAttribute="leading" secondItem="v6y-Ij-Trj" secondAttribute="leading" constant="27.5" id="wVF-8I-SH0"/>
+                </constraints>
+            </view>
+            <blurEffect style="light"/>
+            <point key="canvasLocation" x="100.8" y="26.086956521739133"/>
+        </visualEffectView>
+    </objects>
+</document>

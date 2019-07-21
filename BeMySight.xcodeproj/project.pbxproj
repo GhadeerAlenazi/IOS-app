@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CB4D627222F1ED500DDE71A /* LGMASigninViewControllere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4D626222F1ED500DDE71A /* LGMASigninViewControllere.swift */; };
+		5501557D2226CF2600FA3722 /* LGMAHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501557C2226CF2600FA3722 /* LGMAHomePageViewController.swift */; };
+		553A07BB2240307700CF655F /* LGMAViewRequest_IDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553A07BA2240307700CF655F /* LGMAViewRequest_IDTableViewCell.swift */; };
+		553A07BD2240351100CF655F /* LGMARequest_IDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553A07BC2240351100CF655F /* LGMARequest_IDViewController.swift */; };
+		553A07BF2240376E00CF655F /* LGMADetailRequest_IDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553A07BE2240376E00CF655F /* LGMADetailRequest_IDViewController.swift */; };
+		557601C022231A860025A0F6 /* LGMASignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557601BF22231A860025A0F6 /* LGMASignUpViewController.swift */; };
+		5576190F225DEEC3009E0856 /* BlindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5576190E225DEEC3009E0856 /* BlindViewController.swift */; };
+		55761911225DF656009E0856 /* LGMAEditaccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55761910225DF656009E0856 /* LGMAEditaccountViewController.swift */; };
+		557FA8602226F38B00950A4F /* LGMAMakeRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557FA85F2226F38B00950A4F /* LGMAMakeRequestViewController.swift */; };
+		557FA89C22273D5200950A4F /* LGMAFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557FA89B22273D5200950A4F /* LGMAFavoriteViewController.swift */; };
+		557FA89E22273EEB00950A4F /* LGMACompletedRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557FA89D22273EEB00950A4F /* LGMACompletedRequestViewController.swift */; };
+		55A882852238D7FB00734835 /* ViewRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A882842238D7FB00734835 /* ViewRequestTableViewCell.swift */; };
+		55A882872238D9C100734835 /* ViewRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A882862238D9C100734835 /* ViewRequestModel.swift */; };
+		55A882892238DB4400734835 /* ViewAllRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A882882238DB4400734835 /* ViewAllRequestViewController.swift */; };
+		55A8828F2238F2AA00734835 /* LGMADetailRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A8828E2238F2AA00734835 /* LGMADetailRequestViewController.swift */; };
+		55ABC5D0225BE3B60099CE46 /* DisplayRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ABC5CF225BE3B60099CE46 /* DisplayRequestTableViewCell.swift */; };
+		55ABC5D2225BE40D0099CE46 /* LGMAFavoriteRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ABC5D1225BE40D0099CE46 /* LGMAFavoriteRequestTableViewCell.swift */; };
+		55EB29E7223F7696003D12C4 /* LGMAHomeeViewControllr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EB29E6223F7696003D12C4 /* LGMAHomeeViewControllr.swift */; };
+		55EB29E9223F7914003D12C4 /* LGMARecoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EB29E8223F7914003D12C4 /* LGMARecoverViewController.swift */; };
+		55EB29EB223F7EEE003D12C4 /* LGMAUpdatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EB29EA223F7EEE003D12C4 /* LGMAUpdatedViewController.swift */; };
+		55EB29ED223F8DFB003D12C4 /* LGMARecoverpassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EB29EC223F8DFB003D12C4 /* LGMARecoverpassViewController.swift */; };
+		55EB29EF223F9525003D12C4 /* LGMAUpdatedpassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EB29EE223F9525003D12C4 /* LGMAUpdatedpassViewController.swift */; };
+		55EB29F1223F9995003D12C4 /* LGMAEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EB29F0223F9995003D12C4 /* LGMAEditViewController.swift */; };
+		55F17239225BFCA300F419F4 /* LGMADetailsDisplayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F17238225BFCA300F419F4 /* LGMADetailsDisplayRequest.swift */; };
+		55F1723B225BFD9200F419F4 /* LGMADetailsFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1723A225BFD9200F419F4 /* LGMADetailsFavorite.swift */; };
+		55F1723D225C16A700F419F4 /* LGMASignup_SightedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1723C225C16A700F419F4 /* LGMASignup_SightedViewController.swift */; };
+		55F1723F225C270000F419F4 /* LGMADisplauRoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1723E225C270000F419F4 /* LGMADisplauRoteViewController.swift */; };
+		9933C8C921A9551300BED678 /* Volunteer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9933C8C821A9551300BED678 /* Volunteer.storyboard */; };
+		9933C8CB21A955CA00BED678 /* Unsighted.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9933C8CA21A955CA00BED678 /* Unsighted.storyboard */; };
+		9933C8CD21A95A5C00BED678 /* LGMAMyButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9933C8CC21A95A5C00BED678 /* LGMAMyButtons.swift */; };
+		993D674521A9DDBF00B097E1 /* LGMAInitialScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993D674421A9DDBF00B097E1 /* LGMAInitialScreenViewController.swift */; };
+		993D674A21AA063C00B097E1 /* AlertViewCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = 993D674921AA063C00B097E1 /* AlertViewCustom.xib */; };
+		993D674C21AA09AD00B097E1 /* AlertViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993D674B21AA09AD00B097E1 /* AlertViewCustom.swift */; };
+		9958B3D221A9171700EAA45F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9958B3D121A9171700EAA45F /* AppDelegate.swift */; };
+		9958B3D721A9171700EAA45F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9958B3D521A9171700EAA45F /* Main.storyboard */; };
+		9958B3DA21A9171700EAA45F /* BeMySight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9958B3D821A9171700EAA45F /* BeMySight.xcdatamodeld */; };
+		9958B3DC21A9171800EAA45F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9958B3DB21A9171800EAA45F /* Assets.xcassets */; };
+		9958B3DF21A9171800EAA45F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9958B3DD21A9171800EAA45F /* LaunchScreen.storyboard */; };
+		9958B3EB21A92EC000EAA45F /* LGMAPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9958B3EA21A92EC000EAA45F /* LGMAPageViewController.swift */; };
+		9958B3ED21A932B000EAA45F /* LGMADefualtWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9958B3EC21A932B000EAA45F /* LGMADefualtWelcomeViewController.swift */; };
+		9958B3F021A93E8C00EAA45F /* LGMAConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9958B3EF21A93E8C00EAA45F /* LGMAConstants.swift */; };
+		9958B3F221A9452200EAA45F /* LGMANotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9958B3F121A9452200EAA45F /* LGMANotificationViewController.swift */; };
+		9958B3F421A94AE500EAA45F /* LGMAMyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9958B3F321A94AE500EAA45F /* LGMAMyView.swift */; };
+		997854A2224876F2006DB8D5 /* LGMASteppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997854A1224876F2006DB8D5 /* LGMASteppingViewController.swift */; };
+		999CE18C225D812400A728AD /* VolunteerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999CE18B225D812400A728AD /* VolunteerViewController.swift */; };
+		99A757C521AE5BD40042B2D2 /* LGMAStepsCountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A757C421AE5BD40042B2D2 /* LGMAStepsCountViewController.swift */; };
+		99B6C2E821AA533700DB8D1E /* LGMALoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B6C2E721AA533700DB8D1E /* LGMALoginViewController.swift */; };
+		99B6C2EA21AA582C00DB8D1E /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B6C2E921AA582C00DB8D1E /* extension.swift */; };
+		99F729FE2221D26C00488360 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F729FD2221D26C00488360 /* Node.swift */; };
+		99F72A012222085C00488360 /* LGMAEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F72A002222085C00488360 /* LGMAEnums.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CB4D626222F1ED500DDE71A /* LGMASigninViewControllere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMASigninViewControllere.swift; sourceTree = "<group>"; };
+		5501557C2226CF2600FA3722 /* LGMAHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAHomePageViewController.swift; sourceTree = "<group>"; };
+		553A07BA2240307700CF655F /* LGMAViewRequest_IDTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAViewRequest_IDTableViewCell.swift; sourceTree = "<group>"; };
+		553A07BC2240351100CF655F /* LGMARequest_IDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMARequest_IDViewController.swift; sourceTree = "<group>"; };
+		553A07BE2240376E00CF655F /* LGMADetailRequest_IDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMADetailRequest_IDViewController.swift; sourceTree = "<group>"; };
+		557601BF22231A860025A0F6 /* LGMASignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMASignUpViewController.swift; sourceTree = "<group>"; };
+		5576190E225DEEC3009E0856 /* BlindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindViewController.swift; sourceTree = "<group>"; };
+		55761910225DF656009E0856 /* LGMAEditaccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAEditaccountViewController.swift; sourceTree = "<group>"; };
+		557FA85F2226F38B00950A4F /* LGMAMakeRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAMakeRequestViewController.swift; sourceTree = "<group>"; };
+		557FA89B22273D5200950A4F /* LGMAFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAFavoriteViewController.swift; sourceTree = "<group>"; };
+		557FA89D22273EEB00950A4F /* LGMACompletedRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMACompletedRequestViewController.swift; sourceTree = "<group>"; };
+		55A882842238D7FB00734835 /* ViewRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRequestTableViewCell.swift; sourceTree = "<group>"; };
+		55A882862238D9C100734835 /* ViewRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRequestModel.swift; sourceTree = "<group>"; };
+		55A882882238DB4400734835 /* ViewAllRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllRequestViewController.swift; sourceTree = "<group>"; };
+		55A8828E2238F2AA00734835 /* LGMADetailRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMADetailRequestViewController.swift; sourceTree = "<group>"; };
+		55ABC5CF225BE3B60099CE46 /* DisplayRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayRequestTableViewCell.swift; sourceTree = "<group>"; };
+		55ABC5D1225BE40D0099CE46 /* LGMAFavoriteRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAFavoriteRequestTableViewCell.swift; sourceTree = "<group>"; };
+		55EB29E6223F7696003D12C4 /* LGMAHomeeViewControllr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAHomeeViewControllr.swift; sourceTree = "<group>"; };
+		55EB29E8223F7914003D12C4 /* LGMARecoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMARecoverViewController.swift; sourceTree = "<group>"; };
+		55EB29EA223F7EEE003D12C4 /* LGMAUpdatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAUpdatedViewController.swift; sourceTree = "<group>"; };
+		55EB29EC223F8DFB003D12C4 /* LGMARecoverpassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMARecoverpassViewController.swift; sourceTree = "<group>"; };
+		55EB29EE223F9525003D12C4 /* LGMAUpdatedpassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAUpdatedpassViewController.swift; sourceTree = "<group>"; };
+		55EB29F0223F9995003D12C4 /* LGMAEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAEditViewController.swift; sourceTree = "<group>"; };
+		55F17238225BFCA300F419F4 /* LGMADetailsDisplayRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMADetailsDisplayRequest.swift; sourceTree = "<group>"; };
+		55F1723A225BFD9200F419F4 /* LGMADetailsFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMADetailsFavorite.swift; sourceTree = "<group>"; };
+		55F1723C225C16A700F419F4 /* LGMASignup_SightedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMASignup_SightedViewController.swift; sourceTree = "<group>"; };
+		55F1723E225C270000F419F4 /* LGMADisplauRoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMADisplauRoteViewController.swift; sourceTree = "<group>"; };
+		9933C8C821A9551300BED678 /* Volunteer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Volunteer.storyboard; sourceTree = "<group>"; };
+		9933C8CA21A955CA00BED678 /* Unsighted.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Unsighted.storyboard; sourceTree = "<group>"; };
+		9933C8CC21A95A5C00BED678 /* LGMAMyButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAMyButtons.swift; sourceTree = "<group>"; };
+		993D674421A9DDBF00B097E1 /* LGMAInitialScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAInitialScreenViewController.swift; sourceTree = "<group>"; };
+		993D674921AA063C00B097E1 /* AlertViewCustom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertViewCustom.xib; sourceTree = "<group>"; };
+		993D674B21AA09AD00B097E1 /* AlertViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewCustom.swift; sourceTree = "<group>"; };
+		9958B3CE21A9171700EAA45F /* BeMySight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeMySight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9958B3D121A9171700EAA45F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9958B3D621A9171700EAA45F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9958B3D921A9171700EAA45F /* BeMySight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeMySight.xcdatamodel; sourceTree = "<group>"; };
+		9958B3DB21A9171800EAA45F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9958B3DE21A9171800EAA45F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9958B3E021A9171800EAA45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9958B3EA21A92EC000EAA45F /* LGMAPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAPageViewController.swift; sourceTree = "<group>"; };
+		9958B3EC21A932B000EAA45F /* LGMADefualtWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMADefualtWelcomeViewController.swift; sourceTree = "<group>"; };
+		9958B3EF21A93E8C00EAA45F /* LGMAConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAConstants.swift; sourceTree = "<group>"; };
+		9958B3F121A9452200EAA45F /* LGMANotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMANotificationViewController.swift; sourceTree = "<group>"; };
+		9958B3F321A94AE500EAA45F /* LGMAMyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAMyView.swift; sourceTree = "<group>"; };
+		997854A1224876F2006DB8D5 /* LGMASteppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMASteppingViewController.swift; sourceTree = "<group>"; };
+		999CE18B225D812400A728AD /* VolunteerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerViewController.swift; sourceTree = "<group>"; };
+		99A757C421AE5BD40042B2D2 /* LGMAStepsCountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAStepsCountViewController.swift; sourceTree = "<group>"; };
+		99B6C2E721AA533700DB8D1E /* LGMALoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LGMALoginViewController.swift; path = BeMySight/ViewControllers/UnsightedVC/LGMALoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		99B6C2E921AA582C00DB8D1E /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		99F729FD2221D26C00488360 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		99F72A002222085C00488360 /* LGMAEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMAEnums.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9958B3CB21A9171700EAA45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		993D674821AA05C000B097E1 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				9958B3F321A94AE500EAA45F /* LGMAMyView.swift */,
+				9933C8CC21A95A5C00BED678 /* LGMAMyButtons.swift */,
+				993D674921AA063C00B097E1 /* AlertViewCustom.xib */,
+				993D674B21AA09AD00B097E1 /* AlertViewCustom.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		9958B3C521A9171700EAA45F = {
+			isa = PBXGroup;
+			children = (
+				9958B3D021A9171700EAA45F /* BeMySight */,
+				9958B3CF21A9171700EAA45F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9958B3CF21A9171700EAA45F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9958B3CE21A9171700EAA45F /* BeMySight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9958B3D021A9171700EAA45F /* BeMySight */ = {
+			isa = PBXGroup;
+			children = (
+				9958B3E821A92C4E00EAA45F /* ConfigurationFiles */,
+				9958B3E721A92C2E00EAA45F /* ViewControllers */,
+				993D674821AA05C000B097E1 /* CustomView */,
+				9958B3EE21A93E4B00EAA45F /* CommonStructs */,
+				9958B3E621A92C1500EAA45F /* Storyboards */,
+				9958B3E921A92C8900EAA45F /* Models */,
+				9958B3E021A9171800EAA45F /* Info.plist */,
+			);
+			path = BeMySight;
+			sourceTree = "<group>";
+		};
+		9958B3E621A92C1500EAA45F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9958B3D521A9171700EAA45F /* Main.storyboard */,
+				9933C8C821A9551300BED678 /* Volunteer.storyboard */,
+				9933C8CA21A955CA00BED678 /* Unsighted.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9958B3E721A92C2E00EAA45F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				99B6C2E421AA52A800DB8D1E /* CommonVC */,
+				99B6C2E621AA52DB00DB8D1E /* UnsightedVC */,
+				99B6C2E521AA52CE00DB8D1E /* VolunteerVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9958B3E821A92C4E00EAA45F /* ConfigurationFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9958B3D121A9171700EAA45F /* AppDelegate.swift */,
+				9958B3DB21A9171800EAA45F /* Assets.xcassets */,
+				9958B3DD21A9171800EAA45F /* LaunchScreen.storyboard */,
+			);
+			path = ConfigurationFiles;
+			sourceTree = "<group>";
+		};
+		9958B3E921A92C8900EAA45F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9958B3D821A9171700EAA45F /* BeMySight.xcdatamodeld */,
+				99F729FD2221D26C00488360 /* Node.swift */,
+				55A882862238D9C100734835 /* ViewRequestModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9958B3EE21A93E4B00EAA45F /* CommonStructs */ = {
+			isa = PBXGroup;
+			children = (
+				99F72A002222085C00488360 /* LGMAEnums.swift */,
+				9958B3EF21A93E8C00EAA45F /* LGMAConstants.swift */,
+				99B6C2E921AA582C00DB8D1E /* extension.swift */,
+			);
+			path = CommonStructs;
+			sourceTree = "<group>";
+		};
+		99B6C2E421AA52A800DB8D1E /* CommonVC */ = {
+			isa = PBXGroup;
+			children = (
+				993D674421A9DDBF00B097E1 /* LGMAInitialScreenViewController.swift */,
+			);
+			path = CommonVC;
+			sourceTree = "<group>";
+		};
+		99B6C2E521AA52CE00DB8D1E /* VolunteerVC */ = {
+			isa = PBXGroup;
+			children = (
+				9958B3EA21A92EC000EAA45F /* LGMAPageViewController.swift */,
+				9958B3EC21A932B000EAA45F /* LGMADefualtWelcomeViewController.swift */,
+				9958B3F121A9452200EAA45F /* LGMANotificationViewController.swift */,
+				99A757C421AE5BD40042B2D2 /* LGMAStepsCountViewController.swift */,
+				0CB4D626222F1ED500DDE71A /* LGMASigninViewControllere.swift */,
+				55A882842238D7FB00734835 /* ViewRequestTableViewCell.swift */,
+				55A882882238DB4400734835 /* ViewAllRequestViewController.swift */,
+				55A8828E2238F2AA00734835 /* LGMADetailRequestViewController.swift */,
+				55EB29E6223F7696003D12C4 /* LGMAHomeeViewControllr.swift */,
+				55EB29E8223F7914003D12C4 /* LGMARecoverViewController.swift */,
+				55EB29EA223F7EEE003D12C4 /* LGMAUpdatedViewController.swift */,
+				55EB29F0223F9995003D12C4 /* LGMAEditViewController.swift */,
+				553A07BA2240307700CF655F /* LGMAViewRequest_IDTableViewCell.swift */,
+				553A07BC2240351100CF655F /* LGMARequest_IDViewController.swift */,
+				553A07BE2240376E00CF655F /* LGMADetailRequest_IDViewController.swift */,
+				997854A1224876F2006DB8D5 /* LGMASteppingViewController.swift */,
+				55F1723C225C16A700F419F4 /* LGMASignup_SightedViewController.swift */,
+				999CE18B225D812400A728AD /* VolunteerViewController.swift */,
+			);
+			path = VolunteerVC;
+			sourceTree = "<group>";
+		};
+		99B6C2E621AA52DB00DB8D1E /* UnsightedVC */ = {
+			isa = PBXGroup;
+			children = (
+				99B6C2E721AA533700DB8D1E /* LGMALoginViewController.swift */,
+				557601BF22231A860025A0F6 /* LGMASignUpViewController.swift */,
+				5501557C2226CF2600FA3722 /* LGMAHomePageViewController.swift */,
+				557FA85F2226F38B00950A4F /* LGMAMakeRequestViewController.swift */,
+				557FA89B22273D5200950A4F /* LGMAFavoriteViewController.swift */,
+				557FA89D22273EEB00950A4F /* LGMACompletedRequestViewController.swift */,
+				55EB29EC223F8DFB003D12C4 /* LGMARecoverpassViewController.swift */,
+				55EB29EE223F9525003D12C4 /* LGMAUpdatedpassViewController.swift */,
+				55ABC5CF225BE3B60099CE46 /* DisplayRequestTableViewCell.swift */,
+				55ABC5D1225BE40D0099CE46 /* LGMAFavoriteRequestTableViewCell.swift */,
+				55F17238225BFCA300F419F4 /* LGMADetailsDisplayRequest.swift */,
+				55F1723A225BFD9200F419F4 /* LGMADetailsFavorite.swift */,
+				55F1723E225C270000F419F4 /* LGMADisplauRoteViewController.swift */,
+				5576190E225DEEC3009E0856 /* BlindViewController.swift */,
+				55761910225DF656009E0856 /* LGMAEditaccountViewController.swift */,
+			);
+			path = UnsightedVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9958B3CD21A9171700EAA45F /* BeMySight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9958B3E321A9171800EAA45F /* Build configuration list for PBXNativeTarget "BeMySight" */;
+			buildPhases = (
+				9958B3CA21A9171700EAA45F /* Sources */,
+				9958B3CB21A9171700EAA45F /* Frameworks */,
+				9958B3CC21A9171700EAA45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeMySight;
+			productName = BeMySight;
+			productReference = 9958B3CE21A9171700EAA45F /* BeMySight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9958B3C621A9171700EAA45F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LGMA;
+				TargetAttributes = {
+					9958B3CD21A9171700EAA45F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 9958B3C921A9171700EAA45F /* Build configuration list for PBXProject "BeMySight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9958B3C521A9171700EAA45F;
+			productRefGroup = 9958B3CF21A9171700EAA45F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9958B3CD21A9171700EAA45F /* BeMySight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9958B3CC21A9171700EAA45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9958B3DF21A9171800EAA45F /* LaunchScreen.storyboard in Resources */,
+				9958B3DC21A9171800EAA45F /* Assets.xcassets in Resources */,
+				993D674A21AA063C00B097E1 /* AlertViewCustom.xib in Resources */,
+				9933C8CB21A955CA00BED678 /* Unsighted.storyboard in Resources */,
+				9958B3D721A9171700EAA45F /* Main.storyboard in Resources */,
+				9933C8C921A9551300BED678 /* Volunteer.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9958B3CA21A9171700EAA45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F729FE2221D26C00488360 /* Node.swift in Sources */,
+				9958B3DA21A9171700EAA45F /* BeMySight.xcdatamodeld in Sources */,
+				55EB29EF223F9525003D12C4 /* LGMAUpdatedpassViewController.swift in Sources */,
+				553A07BD2240351100CF655F /* LGMARequest_IDViewController.swift in Sources */,
+				55A882852238D7FB00734835 /* ViewRequestTableViewCell.swift in Sources */,
+				993D674521A9DDBF00B097E1 /* LGMAInitialScreenViewController.swift in Sources */,
+				55ABC5D0225BE3B60099CE46 /* DisplayRequestTableViewCell.swift in Sources */,
+				55F1723B225BFD9200F419F4 /* LGMADetailsFavorite.swift in Sources */,
+				99F72A012222085C00488360 /* LGMAEnums.swift in Sources */,
+				9958B3EB21A92EC000EAA45F /* LGMAPageViewController.swift in Sources */,
+				997854A2224876F2006DB8D5 /* LGMASteppingViewController.swift in Sources */,
+				99B6C2EA21AA582C00DB8D1E /* extension.swift in Sources */,
+				9958B3D221A9171700EAA45F /* AppDelegate.swift in Sources */,
+				9958B3F421A94AE500EAA45F /* LGMAMyView.swift in Sources */,
+				55ABC5D2225BE40D0099CE46 /* LGMAFavoriteRequestTableViewCell.swift in Sources */,
+				99B6C2E821AA533700DB8D1E /* LGMALoginViewController.swift in Sources */,
+				55EB29E7223F7696003D12C4 /* LGMAHomeeViewControllr.swift in Sources */,
+				557FA89C22273D5200950A4F /* LGMAFavoriteViewController.swift in Sources */,
+				55EB29ED223F8DFB003D12C4 /* LGMARecoverpassViewController.swift in Sources */,
+				5576190F225DEEC3009E0856 /* BlindViewController.swift in Sources */,
+				999CE18C225D812400A728AD /* VolunteerViewController.swift in Sources */,
+				55A8828F2238F2AA00734835 /* LGMADetailRequestViewController.swift in Sources */,
+				5501557D2226CF2600FA3722 /* LGMAHomePageViewController.swift in Sources */,
+				55EB29E9223F7914003D12C4 /* LGMARecoverViewController.swift in Sources */,
+				99A757C521AE5BD40042B2D2 /* LGMAStepsCountViewController.swift in Sources */,
+				55F1723D225C16A700F419F4 /* LGMASignup_SightedViewController.swift in Sources */,
+				55A882892238DB4400734835 /* ViewAllRequestViewController.swift in Sources */,
+				9958B3F221A9452200EAA45F /* LGMANotificationViewController.swift in Sources */,
+				553A07BB2240307700CF655F /* LGMAViewRequest_IDTableViewCell.swift in Sources */,
+				557601C022231A860025A0F6 /* LGMASignUpViewController.swift in Sources */,
+				553A07BF2240376E00CF655F /* LGMADetailRequest_IDViewController.swift in Sources */,
+				9933C8CD21A95A5C00BED678 /* LGMAMyButtons.swift in Sources */,
+				55F1723F225C270000F419F4 /* LGMADisplauRoteViewController.swift in Sources */,
+				55761911225DF656009E0856 /* LGMAEditaccountViewController.swift in Sources */,
+				55F17239225BFCA300F419F4 /* LGMADetailsDisplayRequest.swift in Sources */,
+				55A882872238D9C100734835 /* ViewRequestModel.swift in Sources */,
+				557FA89E22273EEB00950A4F /* LGMACompletedRequestViewController.swift in Sources */,
+				9958B3ED21A932B000EAA45F /* LGMADefualtWelcomeViewController.swift in Sources */,
+				9958B3F021A93E8C00EAA45F /* LGMAConstants.swift in Sources */,
+				0CB4D627222F1ED500DDE71A /* LGMASigninViewControllere.swift in Sources */,
+				55EB29EB223F7EEE003D12C4 /* LGMAUpdatedViewController.swift in Sources */,
+				55EB29F1223F9995003D12C4 /* LGMAEditViewController.swift in Sources */,
+				993D674C21AA09AD00B097E1 /* AlertViewCustom.swift in Sources */,
+				557FA8602226F38B00950A4F /* LGMAMakeRequestViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9958B3D521A9171700EAA45F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9958B3D621A9171700EAA45F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9958B3DD21A9171800EAA45F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9958B3DE21A9171800EAA45F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9958B3E121A9171800EAA45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9958B3E221A9171800EAA45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9958B3E421A9171800EAA45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C5V6V296A;
+				INFOPLIST_FILE = BeMySight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BeMySight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9958B3E521A9171800EAA45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C5V6V296A;
+				INFOPLIST_FILE = BeMySight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BeMySight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9958B3C921A9171700EAA45F /* Build configuration list for PBXProject "BeMySight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9958B3E121A9171800EAA45F /* Debug */,
+				9958B3E221A9171800EAA45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9958B3E321A9171800EAA45F /* Build configuration list for PBXNativeTarget "BeMySight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9958B3E421A9171800EAA45F /* Debug */,
+				9958B3E521A9171800EAA45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9958B3D821A9171700EAA45F /* BeMySight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9958B3D921A9171700EAA45F /* BeMySight.xcdatamodel */,
+			);
+			currentVersion = 9958B3D921A9171700EAA45F /* BeMySight.xcdatamodel */;
+			path = BeMySight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9958B3C621A9171700EAA45F /* Project object */;
+}
